@@ -1,0 +1,91 @@
+.header__bar{
+    background-color: turquoise;
+    padding: 1.6rem;
+}
+
+.header__barLinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__bar a{
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.header__hero{
+    background:linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/banner.jpeg') no-repeat center center/cover;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.header__heroInfo{
+    padding-left: 6rem;
+    color: #fff;
+}
+
+
+.header__heroInfo h1{
+    font-size: 3rem;
+    letter-spacing: 4px;
+    margin-bottom: 1.2rem;
+}
+
+.header__heroInfo p{
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.header__heroInfo button{
+    border: none;
+    outline: none;
+    padding: 0.8rem 3.2rem;
+    font-size: 1.2rem;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 0.8rem;
+}
+
+.header__mediaContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__media{
+    padding-top: 3rem;
+}
+
+.header__media{
+    display: flex;
+    align-items: flex-start;
+}
+
+.header__mediaInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.8rem;
+}
+.header__mediaInfo span:last-child{
+    color: lightgray;
+}
+
+@media screen and (max-width:768px){
+    .header__heroInfo{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .header__heroInfo h1{
+        font-size: 2.4rem;
+    }
+    .header__heroInfo p{
+        font-size: 1.3rem;
+    }
+    .header__heroInfo button{
+        font-size: 1rem;
+    }
+  
+}
